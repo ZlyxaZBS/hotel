@@ -1,0 +1,201 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(236, 234, 234);
+}
+.head-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+
+.head-block2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.kab {
+    background-image: url(img/arrow.svg);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-position: left center;
+    color: rgba(205, 159, 85);
+    margin-right: 130px;
+}
+.num {
+    margin-left: 30px;
+    color: rgb(95, 95, 95);
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 70px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 25px;
+    padding-left: 50px;
+    background-color: white;
+    padding-right: 50px;
+}
+
+.nav-item {
+    color:grey;
+    text-decoration: none;
+    margin-right: 35px;
+    transition: color 0.3s linear;
+}
+.nav-item1 {
+    border-right: 1px solid rgb(219, 218, 218);
+    text-decoration: none;
+    color:grey;
+    padding-right: 20px;
+    transition: color 0.3s linear;
+}
+.nav-item2 {
+    margin-left: 30px;
+    padding-left: 30px;
+    height: 50px;
+    text-decoration: none;
+    color: rgba(205, 159, 85);
+    transition: color 0.3s linear;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: rgba(205, 159, 85);
+}
+.nav-item3 {
+    margin-left: 40px;
+    height: 50px;
+    text-decoration: none;
+    color: rgba(205, 159, 85);
+    transition: color 0.3s linear;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: rgba(205, 159, 85);
+}
+.nav-item:hover {
+    color: rgb(90, 66, 37);
+}
+.nav-item2:hover {
+    color: rgb(68, 51, 29);
+}
+.nav-item3:hover {
+    color: rgb(68, 51, 29);
+}
+.nav-item1:hover {
+    color: rgb(68, 51, 29);
+}
+.podr:hover {
+    color: rgb(189, 146, 78);
+    transition: color 0.2s linear;
+}
+.podr2:hover {
+    color: rgb(189, 146, 78);
+    transition: color 0.2s linear;
+}
+.podr3:hover {
+    color: rgb(189, 146, 78);
+    transition: color 0.2s linear;
+}
+
+.spec {
+    margin-top: 160px;
+    margin-left: 115px;
+    font-size: 30px;
+    color: rgb(58, 58, 58);
+}
+.hotel1 {
+    background-image: url(img/offer1.png);
+    background-repeat: no-repeat;
+    padding: 60px;
+    background-size: 500px;
+    margin-left: 70px;
+    margin-top: -15px;
+    /* filter:invert(5%);  */
+}
+.nazv1 {
+    font-size: 35px;
+    margin-top: -30px;
+    margin-left: -15px;
+    color: white;
+    font-weight: bold;
+}
+.cena {
+    color: rgb(194, 191, 191);
+    margin-left: -10px;
+    margin-bottom: 35px;
+}
+.podr {
+    color: rgb(219, 171, 93);
+    margin-left: -10px;
+    background-image: url(img/img_arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 87px 1px;
+}
+
+
+.hotel2 {
+    background-image: url(img/offer2.png);
+    background-repeat: no-repeat;
+    padding: 60px;
+    background-size: 500px;
+    margin-left: 70px;
+    margin-top: -32px;
+    /* filter:invert(5%);  */
+}
+.nazv2 {
+    font-size: 35px;
+    margin-top: -30px;
+    margin-left: -15px;
+    color: white;
+    font-weight: bold;
+}
+.cena2 {
+    color: rgb(194, 191, 191);
+    margin-left: -10px;
+    margin-bottom: 35px;
+}
+.podr2 {
+    color: rgb(219, 171, 93);
+    margin-left: -10px;
+    background-image: url(img/img_arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 87px 1px;
+}
+
+
+.hotel3 {
+    width: 50%;
+    background-image: url(img/offer3.png);
+    background-repeat: no-repeat;
+    padding: 60px;
+    background-size: 550px;
+    margin-left: 585px;
+    margin-top: -526px;
+    /* filter:invert(5%);  */
+}
+.nazv3 {
+    margin-top: 130px;
+    margin-left: -15px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.cena3 {
+    color: rgb(194, 191, 191);
+    margin-left: -10px;
+    margin-bottom: 30px;
+}
+.podr3 {
+    color: rgb(219, 171, 93);
+    margin-left: -10px;
+    background-image: url(img/img_arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 87px 1px;
+}
